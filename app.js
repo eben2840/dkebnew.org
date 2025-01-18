@@ -1,7 +1,7 @@
 // app.js
 window.onload = () => {
     // Define your valid routes (the actual HTML files in your project)
-    const validRoutes = ['index.html'];
+    const validRoutes = ['index.html']['about.html']['servicer.html'];
 
     // Get the current path and extract the file name
     const currentPath = window.location.pathname.split('/').pop();
